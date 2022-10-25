@@ -71,7 +71,7 @@ public class Sql_Design {
 	public void Connect() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testmysql","root","AP31bm887*");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testmysql","root",""); //add you password
 		}
 		catch (ClassNotFoundException ex) {
 			
